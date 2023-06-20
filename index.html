@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="project-container">
+        <div class="network-bar">
+            <h3>Network</h3>
+        </div>
+        <div class="feed-header">
+            <h3>Your Feed</h3>
+        </div>
+        <div class="feed-container">
+            <div class="left">
+              <div class="avatar-box">
+                <img class="avatar" src="./images/user-circle.png" alt="user image">
+               <br><br>
+                <p> <a href="#">Add an avatar </a></p>
+                <br><br>
+                <h4>James Doe</h4>
+
+              </div>
+            </div>
+            <div class="right">
+                <div class="card">
+                  <div class="top-card">
+                    <h4 class="User-name">Neil M</h4>
+                    <div class="likes">
+                      <p id="count">9 like(s)</p>
+                      <button id="button1" onclick="add1()">Like</button>
+                    </div>
+                  </div>
+                  <div class="bottom-card">
+                    <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                  </div>
+                </div>
+                <div class="card">
+                    <div class="top-card">
+                      <h4 class="User-name">Nichole K</h4>
+                      <div class="likes">
+                        <p id="count2">12 like(s)</p>
+                        <button id="button2" onclick="add2()">Like</button>
+                      </div>
+                    </div>
+                    <div class="bottom-card">
+                      <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="top-card">
+                      <h4 class="User-name">Jim R</h4>
+                      <div class="likes">
+                        <p id="count3">9 like(s)</p>
+                        <button id="button3" onclick="add3()">Like</button>
+                      </div>
+                    </div>
+                    <div class="bottom-card">
+                      <p>I can't stop listening to the <a href="#">new album.</a> Who else is liking it?</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

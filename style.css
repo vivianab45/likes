@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+*{  margin:0;
+    padding:0;
+    
+    font-family: 'Balsamiq Sans', cursive;
+}
+.project-container{
+    width:550px;
+    margin:0 auto;
+}
+.network-bar{
+    background-color: black;
+
+    color: white;
+    padding:10px;
+}
+
+.feed-header {
+    background-color:white;
+    padding:10px;
+    text-align:center;
+}
+.card{
+    height:80px;
+    background-color: white;
+    border: 2px solid black;
+    margin-bottom: 30px;
+    margin-left:50px;
+    padding:10px;
+
+}
+.top-card {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.bottom-card{
+    margin-top:15px;
+}
+
+.likes{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:35px;
+}
+
+button{
+    background-color:rgb(254,217,101);
+    border-color:black;
+    box-shadow: 2px 2px black;
+    width:50px;
+}
+
+.feed-container{
+    display:flex;
+    justify-content:space-between;
+ 
+
+}
+
+.left{
+    flex:150px;
+
+}
+.avatar-box{
+    height:200px;
+    border: 2px solid black;
+    text-align:center;
+    padding-top:10px;
+}
+
+.avatar{
+    height:75px;
+}
+
+.right{
+    width:450px;
+}
